@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(155, 228, 252);
+}
+
+.name-card {
+    display: flex;
+    width: fit-content;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.name-card > img {
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.card-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-desc > main {
+    padding-right: 100px;
+}
+
+.card-desc > main > h2 {
+    font-size: 50px;
+}
+
+.card-desc > main > p {
+    color: rgb(254, 193, 223);
+    font-size: 25px;
+}
+
+.card-desc > button {
+    width: fit-content;
+    border: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgb(130, 55, 214);
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+/* Card Section */
+
+.card-wrapper {
+    background-color: rgb(220, 220, 220);
+    padding: 30px;
+}
+
+.card-wrapper > main {
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    padding: 20px 30px;
+}
+
+.card > h1 {
+    font-size: 30px;
+}
+
+.card > p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(171, 171, 171);
+    letter-spacing: 1px;
+}
+
+.card > button {
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(22, 127, 251);
+    border-radius: 10px;
+    padding: 8px 15px;
+}

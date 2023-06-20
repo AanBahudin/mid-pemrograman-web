@@ -1,0 +1,93 @@
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 667px) {
+
+    .name-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        padding: 10px 10px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    .name-card > img{
+        margin: auto;
+    }
+
+    .card-desc {
+        display: flex;
+        align-items: center;
+    }
+
+    .card-desc > main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-desc > main > h2 {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    
+    .card-desc > main > p {
+        color: rgb(254, 193, 223);
+        font-size: 15px;
+    }
+
+    .card-desc > button {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+
+    .card {
+        text-align: center;
+        background-color: white;
+        padding: 20px 30px;
+        width: 100%;
+    }
+
+    .card-desc > main {
+        padding-right: 50px;
+    }
+
+    .card > h1 {
+        font-size: 20px;
+    }
+    
+    .card > p {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+
+    .card > button {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 667px) and (max-width: 1024px) {
+
+    .card-desc > main > h2 {
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+    .card {
+        text-align: center;
+        background-color: white;
+        padding: 20px 30px;
+        width: 60%;
+    }
+
+    .card > h1 {
+        font-size: 25px;
+    }
+    
+    .card > p {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+}

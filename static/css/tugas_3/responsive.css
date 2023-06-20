@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1024px) {
+    .super-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .profile-container {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .profile-desc {
+        text-align: center;
+    }
+
+    .profile-desc > h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .profile-desc > p {
+        font-weight: 300;
+    }
+
+
+    /* FORMS SECTION */
+
+    .form-container {
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .form-container > form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    .left-form, button {
+        width: 100%;
+    }
+
+    .result-container {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .result > main {
+        width: 90%;
+    }
+
+    .result-secondary {
+        width: 80%;
+    }
+
+    .result-secondary > h1 {
+        font-size: 15px;
+    }
+
+    .result-container > p {
+        width: 100%;
+    }
+}
